@@ -10,19 +10,41 @@ import Tsehay from '../assets/logos/tsehay.png'
 import Siinqee from '../assets/logos/siinqee.png'
 import Zamzam from '../assets/logos/zamzam.png'
 import Amhara from '../assets/logos/amhara.png'
+import Abay from '../assets/logos/abay.png'
+import Ahadu from '../assets/logos/ahadu.png'
+import anbesa from '../assets/logos/Anbesa.png'
+import Bunna from '../assets/logos/Bunna.png'
+import Dashen from '../assets/logos/Dashen.png'
+import Enat from '../assets/logos/enat.png'
+import Gadaa from '../assets/logos/gadaa.png'
+import Adis from '../assets/logos/adis.png'
+import Hibret from '../assets/logos/hibret.png'
+import Hijra from '../assets/logos/hijra.png'
+import Zemen from '../assets/logos/zemen.png'
 
 const banks = [
-  { name: "Bank of Abyssinia", logo: Abyssinia, url: "https://cs.bankofabyssinia.com/fayda_connect" },
+  { name: "Abay Bank", logo: Abay, url: "https://faydaabaybank.com.et" },
+  { name: "Adis Bank", logo: Adis, url: "https://faydaabaybank.com.et" },
+  { name: "Ahadu Bank", logo: Ahadu, url: "https://verifayda.ahadubank.com" },
+  { name: "Amhara Bank", logo: Amhara, url: "https://fayda.amharabank.com.et" },
+  { name: "Anbesa Bank", logo: Anbesa, url: "https://fayda.anbesabank.com/" },
   { name: "Awash Bank", logo: Awash, url: "https://fayda.awashbank.com" },
+  { name: "Bank of Abyssinia", logo: Abyssinia, url: "https://cs.bankofabyssinia.com/fayda_connect" },
+  { name: "Bunna Bank", logo: Bunna, url: "https://verifayda.bunnabanksc.com/fayda-app-online/#/bunnafayda" },
   { name: "Coop Bank of Oromia", logo: Coop, url: "https://my.coopbankoromiasc.com/harmonization" },
   { name: "Commercial Bank of Ethiopia", logo: CBE, url: "https://cbefayda.cbe.com.et" },
-  { name: "Oromia Bank", logo: Oromia, url: "https://bfayda.oromiabank.com" },
-  { name: "Wegagen Bank", logo: Wegagen, url: "https://fayda.wegagenbanksc.com.et/harmonization" },
+  { name: "Dashen Bank", logo: Dashen, url: "https://www.dashensuperapp.com/dashen-fayda" },
+  { name: "Enat Bank", logo: Enat, url: "https://kyc.enatbanksc.com/bank-account-entry" },
+  { name: "Gadaa Bank", logo: Gadaa, url: "http://fayda-v2.gadaabank.com.et/publicfayda" },
+  { name: "Hibret Bank", logo: Hibret, url: "https://services.hibretbank.com.et/fayda/index" },
+  { name: "Hijra Bank", logo: Hijra, url: "https://apps.hijradigital.com/fayda/v2/" },
   { name: "Nib Bank", logo: Nib, url: "https://fayda.nibbank.com.et" },
-  { name: "Tsehay Bank", logo: Tsehay, url: "https://fayda.tsehaybank.com.et/FAYDA/home" },
+  { name: "Oromia Bank", logo: Oromia, url: "https://bfayda.oromiabank.com" },
   { name: "Siinqee Bank", logo: Siinqee, url: "https://fayda.siinqeebank.com:7443" },
+  { name: "Tsehay Bank", logo: Tsehay, url: "https://fayda.tsehaybank.com.et/FAYDA/home" },
+  { name: "Wegagen Bank", logo: Wegagen, url: "https://fayda.wegagenbanksc.com.et/harmonization" },
   { name: "Zamzam Bank", logo: Zamzam, url: "https://fayda.zamzambank.com.et" },
-  { name: "Amhara Bank", logo: Amhara, url: "https://fayda.amharabank.com.et" },
+  { name: "Zemen Bank", logo: Zemen, url: "https://fayda.zemenbank.com/verifayda/home" },
 ];
 
 const highlights = [
