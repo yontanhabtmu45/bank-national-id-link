@@ -280,7 +280,7 @@
 
 .hero-panel-item strong {
   display: block;
-  color: var(--text);
+  color: #2c3e50e1;
 }
 
 .hero-panel-item p {
@@ -322,13 +322,18 @@
 }
 
 .banks-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 1.75rem;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .bank-card {
-  background: linear-gradient(180deg, rgba(255,255,255,0.98), #ffffff);
+  flex: 0 0 320px;
+  max-width: 320px;
+  scroll-snap-align: start;
+  background: transparent;
   border-radius: 24px;
   padding: 2rem;
   box-shadow: 0 18px 50px rgba(17, 51, 85, 0.08);
@@ -375,6 +380,7 @@
 .bank-name {
   font-size: 1.1rem;
   margin-bottom: 0.75rem;
+  color: #2c3e50;
 }
 
 .bank-copy {
@@ -448,7 +454,13 @@
   }
 
   .banks-grid {
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    flex-wrap: wrap;
+    gap: 1.25rem;
+  }
+
+  .bank-card {
+    flex: 0 0 280px;
+    max-width: 280px;
   }
 
   .info-section {
